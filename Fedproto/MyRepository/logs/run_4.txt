@@ -1,0 +1,298 @@
+//python federated_main.py --mode model_heter --dataset femnist --num_classes 62 --num_users 20 --ways 3 --shots 100 --stdev 2 --rounds 120 --train_shots_max 110 --ld 1
+
+Save protos and labels successfully.
+Experimental details:
+    Model     : cnn
+    Optimizer : sgd
+    Learning  : 0.01
+    Global Rounds   : 120
+
+    Federated parameters:
+    Non-IID
+    Fraction of users  : 0.04
+    Local Batch size   : 4
+    Local Epochs       : 1
+
+ | Global Training Round : 1 |
+
+ | Global Training Round : 2 |
+
+ | Global Training Round : 3 |
+
+ | Global Training Round : 4 |
+
+ | Global Training Round : 5 |
+
+ | Global Training Round : 6 |
+
+ | Global Training Round : 7 |
+
+ | Global Training Round : 8 |
+
+ | Global Training Round : 9 |
+
+ | Global Training Round : 10 |
+
+ | Global Training Round : 11 |
+
+ | Global Training Round : 12 |
+
+ | Global Training Round : 13 |
+
+ | Global Training Round : 14 |
+
+ | Global Training Round : 15 |
+
+ | Global Training Round : 16 |
+
+ | Global Training Round : 17 |
+
+ | Global Training Round : 18 |
+
+ | Global Training Round : 19 |
+
+ | Global Training Round : 20 |
+
+ | Global Training Round : 21 |
+
+ | Global Training Round : 22 |
+
+ | Global Training Round : 23 |
+
+ | Global Training Round : 24 |
+
+ | Global Training Round : 25 |
+
+ | Global Training Round : 26 |
+
+ | Global Training Round : 27 |
+
+ | Global Training Round : 28 |
+
+ | Global Training Round : 29 |
+
+ | Global Training Round : 30 |
+
+ | Global Training Round : 31 |
+
+ | Global Training Round : 32 |
+
+ | Global Training Round : 33 |
+
+ | Global Training Round : 34 |
+
+ | Global Training Round : 35 |
+
+ | Global Training Round : 36 |
+
+ | Global Training Round : 37 |
+
+ | Global Training Round : 38 |
+
+ | Global Training Round : 39 |
+
+ | Global Training Round : 40 |
+
+ | Global Training Round : 41 |
+
+ | Global Training Round : 42 |
+
+ | Global Training Round : 43 |
+
+ | Global Training Round : 44 |
+
+ | Global Training Round : 45 |
+
+ | Global Training Round : 46 |
+
+ | Global Training Round : 47 |
+
+ | Global Training Round : 48 |
+
+ | Global Training Round : 49 |
+
+ | Global Training Round : 50 |
+
+ | Global Training Round : 51 |
+
+ | Global Training Round : 52 |
+
+ | Global Training Round : 53 |
+
+ | Global Training Round : 54 |
+
+ | Global Training Round : 55 |
+
+ | Global Training Round : 56 |
+
+ | Global Training Round : 57 |
+
+ | Global Training Round : 58 |
+
+ | Global Training Round : 59 |
+
+ | Global Training Round : 60 |
+
+ | Global Training Round : 61 |
+
+ | Global Training Round : 62 |
+
+ | Global Training Round : 63 |
+
+ | Global Training Round : 64 |
+
+ | Global Training Round : 65 |
+
+ | Global Training Round : 66 |
+
+ | Global Training Round : 67 |
+
+ | Global Training Round : 68 |
+
+ | Global Training Round : 69 |
+
+ | Global Training Round : 70 |
+
+ | Global Training Round : 71 |
+
+ | Global Training Round : 72 |
+
+ | Global Training Round : 73 |
+
+ | Global Training Round : 74 |
+
+ | Global Training Round : 75 |
+
+ | Global Training Round : 76 |
+
+ | Global Training Round : 77 |
+
+ | Global Training Round : 78 |
+
+ | Global Training Round : 79 |
+
+ | Global Training Round : 80 |
+
+ | Global Training Round : 81 |
+
+ | Global Training Round : 82 |
+
+ | Global Training Round : 83 |
+
+ | Global Training Round : 84 |
+
+ | Global Training Round : 85 |
+
+ | Global Training Round : 86 |
+
+ | Global Training Round : 87 |
+
+ | Global Training Round : 88 |
+
+ | Global Training Round : 89 |
+
+ | Global Training Round : 90 |
+
+ | Global Training Round : 91 |
+
+ | Global Training Round : 92 |
+
+ | Global Training Round : 93 |
+
+ | Global Training Round : 94 |
+
+ | Global Training Round : 95 |
+
+ | Global Training Round : 96 |
+
+ | Global Training Round : 97 |
+
+ | Global Training Round : 98 |
+
+ | Global Training Round : 99 |
+
+ | Global Training Round : 100 |
+
+ | Global Training Round : 101 |
+
+ | Global Training Round : 102 |
+
+ | Global Training Round : 103 |
+
+ | Global Training Round : 104 |
+
+ | Global Training Round : 105 |
+
+ | Global Training Round : 106 |
+
+ | Global Training Round : 107 |
+
+ | Global Training Round : 108 |
+
+ | Global Training Round : 109 |
+
+ | Global Training Round : 110 |
+
+ | Global Training Round : 111 |
+
+ | Global Training Round : 112 |
+
+ | Global Training Round : 113 |
+
+ | Global Training Round : 114 |
+
+ | Global Training Round : 115 |
+
+ | Global Training Round : 116 |
+
+ | Global Training Round : 117 |
+
+ | Global Training Round : 118 |
+
+ | Global Training Round : 119 |
+
+ | Global Training Round : 120 |
+
+| User: 0 | Global Test Acc w/o protos: 1.000
+| User: 0 | Global Test Acc with protos: 1.00000
+| User: 1 | Global Test Acc w/o protos: 0.996
+| User: 1 | Global Test Acc with protos: 0.99333
+| User: 2 | Global Test Acc w/o protos: 0.986
+| User: 2 | Global Test Acc with protos: 0.98333
+| User: 3 | Global Test Acc w/o protos: 0.974
+| User: 3 | Global Test Acc with protos: 0.96667
+| User: 4 | Global Test Acc w/o protos: 0.967
+| User: 4 | Global Test Acc with protos: 0.96667
+| User: 5 | Global Test Acc w/o protos: 0.968
+| User: 5 | Global Test Acc with protos: 0.96984
+| User: 6 | Global Test Acc w/o protos: 0.971
+| User: 6 | Global Test Acc with protos: 0.97246
+| User: 7 | Global Test Acc w/o protos: 0.973
+| User: 7 | Global Test Acc with protos: 0.97308
+| User: 8 | Global Test Acc w/o protos: 0.972
+| User: 8 | Global Test Acc with protos: 0.97097
+| User: 9 | Global Test Acc w/o protos: 0.971
+| User: 9 | Global Test Acc with protos: 0.97157
+| User: 10 | Global Test Acc w/o protos: 0.962
+| User: 10 | Global Test Acc with protos: 0.95299
+| User: 11 | Global Test Acc w/o protos: 0.953
+| User: 11 | Global Test Acc with protos: 0.95397
+| User: 12 | Global Test Acc w/o protos: 0.952
+| User: 12 | Global Test Acc with protos: 0.95145
+| User: 13 | Global Test Acc w/o protos: 0.949
+| User: 13 | Global Test Acc with protos: 0.94733
+| User: 14 | Global Test Acc w/o protos: 0.942
+| User: 14 | Global Test Acc with protos: 0.93636
+| User: 15 | Global Test Acc w/o protos: 0.935
+| User: 15 | Global Test Acc with protos: 0.93277
+| User: 16 | Global Test Acc w/o protos: 0.933
+| User: 16 | Global Test Acc with protos: 0.93388
+| User: 17 | Global Test Acc w/o protos: 0.933
+| User: 17 | Global Test Acc with protos: 0.93280
+| User: 18 | Global Test Acc w/o protos: 0.933
+| User: 18 | Global Test Acc with protos: 0.93383
+| User: 19 | Global Test Acc w/o protos: 0.935
+| User: 19 | Global Test Acc with protos: 0.93568
+For all users (with protos), mean of test acc is 0.95895, std of test acc is 0.02039
+For all users (w/o protos), mean of test acc is 0.96026, std of test acc is 0.02050
+For all users (with protos), mean of proto loss is 0.03160, std of test acc is 0.01490

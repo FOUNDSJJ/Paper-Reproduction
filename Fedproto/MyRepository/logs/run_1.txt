@@ -1,0 +1,259 @@
+//python federated_main.py --mode task_heter --dataset mnist --num_classes 10 --num_users 20 --ways 3 --shots 100 --stdev 2 --rounds 100 --train_shots_max 110 --ld 1
+
+Save protos and labels successfully.
+Experimental details:
+    Model     : cnn
+    Optimizer : sgd
+    Learning  : 0.01
+    Global Rounds   : 100
+
+    Federated parameters:
+    Non-IID
+    Fraction of users  : 0.04
+    Local Batch size   : 4
+    Local Epochs       : 1
+
+ | Global Training Round : 1 |
+
+ | Global Training Round : 2 |
+
+ | Global Training Round : 3 |
+
+ | Global Training Round : 4 |
+
+ | Global Training Round : 5 |
+
+ | Global Training Round : 6 |
+
+ | Global Training Round : 7 |
+
+ | Global Training Round : 8 |
+
+ | Global Training Round : 9 |
+
+ | Global Training Round : 10 |
+
+ | Global Training Round : 11 |
+
+ | Global Training Round : 12 |
+
+ | Global Training Round : 13 |
+
+ | Global Training Round : 14 |
+
+ | Global Training Round : 15 |
+
+ | Global Training Round : 16 |
+
+ | Global Training Round : 17 |
+
+ | Global Training Round : 18 |
+
+ | Global Training Round : 19 |
+
+ | Global Training Round : 20 |
+
+ | Global Training Round : 21 |
+
+ | Global Training Round : 22 |
+
+ | Global Training Round : 23 |
+
+ | Global Training Round : 24 |
+
+ | Global Training Round : 25 |
+
+ | Global Training Round : 26 |
+
+ | Global Training Round : 27 |
+
+ | Global Training Round : 28 |
+
+ | Global Training Round : 29 |
+
+ | Global Training Round : 30 |
+
+ | Global Training Round : 31 |
+
+ | Global Training Round : 32 |
+
+ | Global Training Round : 33 |
+
+ | Global Training Round : 34 |
+
+ | Global Training Round : 35 |
+
+ | Global Training Round : 36 |
+
+ | Global Training Round : 37 |
+
+ | Global Training Round : 38 |
+
+ | Global Training Round : 39 |
+
+ | Global Training Round : 40 |
+
+ | Global Training Round : 41 |
+
+ | Global Training Round : 42 |
+
+ | Global Training Round : 43 |
+
+ | Global Training Round : 44 |
+
+ | Global Training Round : 45 |
+
+ | Global Training Round : 46 |
+
+ | Global Training Round : 47 |
+
+ | Global Training Round : 48 |
+
+ | Global Training Round : 49 |
+
+ | Global Training Round : 50 |
+
+ | Global Training Round : 51 |
+
+ | Global Training Round : 52 |
+
+ | Global Training Round : 53 |
+
+ | Global Training Round : 54 |
+
+ | Global Training Round : 55 |
+
+ | Global Training Round : 56 |
+
+ | Global Training Round : 57 |
+
+ | Global Training Round : 58 |
+
+ | Global Training Round : 59 |
+
+ | Global Training Round : 60 |
+
+ | Global Training Round : 61 |
+
+ | Global Training Round : 62 |
+
+ | Global Training Round : 63 |
+
+ | Global Training Round : 64 |
+
+ | Global Training Round : 65 |
+
+ | Global Training Round : 66 |
+
+ | Global Training Round : 67 |
+
+ | Global Training Round : 68 |
+
+ | Global Training Round : 69 |
+
+ | Global Training Round : 70 |
+
+ | Global Training Round : 71 |
+
+ | Global Training Round : 72 |
+
+ | Global Training Round : 73 |
+
+ | Global Training Round : 74 |
+
+ | Global Training Round : 75 |
+
+ | Global Training Round : 76 |
+
+ | Global Training Round : 77 |
+
+ | Global Training Round : 78 |
+
+ | Global Training Round : 79 |
+
+ | Global Training Round : 80 |
+
+ | Global Training Round : 81 |
+
+ | Global Training Round : 82 |
+
+ | Global Training Round : 83 |
+
+ | Global Training Round : 84 |
+
+ | Global Training Round : 85 |
+
+ | Global Training Round : 86 |
+
+ | Global Training Round : 87 |
+
+ | Global Training Round : 88 |
+
+ | Global Training Round : 89 |
+
+ | Global Training Round : 90 |
+
+ | Global Training Round : 91 |
+
+ | Global Training Round : 92 |
+
+ | Global Training Round : 93 |
+
+ | Global Training Round : 94 |
+
+ | Global Training Round : 95 |
+
+ | Global Training Round : 96 |
+
+ | Global Training Round : 97 |
+
+ | Global Training Round : 98 |
+
+ | Global Training Round : 99 |
+
+ | Global Training Round : 100 |
+
+| User: 0 | Global Test Acc w/o protos: 0.980
+| User: 0 | Global Test Acc with protos: 0.97500
+| User: 1 | Global Test Acc w/o protos: 0.978
+| User: 1 | Global Test Acc with protos: 0.98250
+| User: 2 | Global Test Acc w/o protos: 0.983
+| User: 2 | Global Test Acc with protos: 0.98393
+| User: 3 | Global Test Acc w/o protos: 0.985
+| User: 3 | Global Test Acc with protos: 0.98603
+| User: 4 | Global Test Acc w/o protos: 0.986
+| User: 4 | Global Test Acc with protos: 0.98618
+| User: 5 | Global Test Acc w/o protos: 0.986
+| User: 5 | Global Test Acc with protos: 0.98512
+| User: 6 | Global Test Acc w/o protos: 0.986
+| User: 6 | Global Test Acc with protos: 0.98641
+| User: 7 | Global Test Acc w/o protos: 0.987
+| User: 7 | Global Test Acc with protos: 0.98702
+| User: 8 | Global Test Acc w/o protos: 0.986
+| User: 8 | Global Test Acc with protos: 0.98548
+| User: 9 | Global Test Acc w/o protos: 0.986
+| User: 9 | Global Test Acc with protos: 0.98603
+| User: 10 | Global Test Acc w/o protos: 0.985
+| User: 10 | Global Test Acc with protos: 0.98397
+| User: 11 | Global Test Acc w/o protos: 0.984
+| User: 11 | Global Test Acc with protos: 0.98393
+| User: 12 | Global Test Acc w/o protos: 0.984
+| User: 12 | Global Test Acc with protos: 0.98288
+| User: 13 | Global Test Acc w/o protos: 0.983
+| User: 13 | Global Test Acc with protos: 0.98400
+| User: 14 | Global Test Acc w/o protos: 0.983
+| User: 14 | Global Test Acc with protos: 0.98068
+| User: 15 | Global Test Acc w/o protos: 0.980
+| User: 15 | Global Test Acc with protos: 0.98051
+| User: 16 | Global Test Acc w/o protos: 0.980
+| User: 16 | Global Test Acc with protos: 0.98053
+| User: 17 | Global Test Acc w/o protos: 0.981
+| User: 17 | Global Test Acc with protos: 0.98075
+| User: 18 | Global Test Acc w/o protos: 0.980
+| User: 18 | Global Test Acc with protos: 0.97873
+| User: 19 | Global Test Acc w/o protos: 0.979
+| User: 19 | Global Test Acc with protos: 0.97852
+For all users (with protos), mean of test acc is 0.98291, std of test acc is 0.00313
+For all users (w/o protos), mean of test acc is 0.98309, std of test acc is 0.00271
+For all users (with protos), mean of proto loss is 0.02766, std of test acc is 0.00891
+Save protos and labels successfully.
